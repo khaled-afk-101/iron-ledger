@@ -1,0 +1,9 @@
+# Never commit exported workout data — it is personal training history,
+# and anything pushed to a public repo stays in git history forever.
+iron-ledger-backup-*.json
+*-backup-*.json
+backup*.json
+
+# OS noise
+.DS_Store
+Thumbs.db
